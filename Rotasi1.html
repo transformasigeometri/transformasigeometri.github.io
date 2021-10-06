@@ -1,0 +1,187 @@
+<html>
+<head>
+<title> Rotasi </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-container">
+          <a href="Translasi1.html" >1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-containerr">
+            <a href="Rotasi1.html"class="hvr">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+
+    <div class="kanan">
+      <div class="judref1">
+        <h2>3.1 Rotasi dengan Pusat \[O(0,0)\]</h2></div>
+        <br>
+        <button class="petunjuk">Klik Untuk Melihat Tujuan Pembelajaran</button><br>
+                    <div id="petunjuk" class="hilang">
+                        Siswa dapat menentukan bayangan suatu objek setelah dirotasi terhadap pusat O(0,0) dengan benar 
+                    </div>
+     <br>
+    <p class="judt1" id="uk">
+      <img src="buku1.png" width="50px" height="25px">
+      Rotasi dengan pusat \[O(0,0)\]
+    </p>
+    <div class="marimengamatirot1">
+      <img src="marimengamati.png" width="250" height="70" class="gmb">
+      <center><p class="ref1a"> <b style="color:rgb(0, 104, 9)">Rotasi sejauh \[90^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\]</b></p></center>
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika \[P(x,y)\] dirotasikan sejauh \[90^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\], maka diperoleh bayangan dari \[P\], yaitu \[{P}'({x}',{y}')\]. Dengan \[{x}'=-y\] dan \[{y}'=x\] atau dapat ditulis \[P(x,y)\xrightarrow{R[0,90^{\circ}]}{P}'(-y,x)\]. Perhatikan gambar 15 di bawah ini
+      <center> <img src="rot1a.png" width="400" height="240"></center>
+      <center>
+        <i>
+          <b>Gambar 15.</b>
+         " Rotasi sejauh \[90^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\]"
+        </i>
+      </center> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Titik \[A\] mempunyai titik \[(2,-3)\] yang dirotasikan sejauh \[90^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\] maka menghasilkan bayangan dari \[A\], yaitu \[A(2,-3)\xrightarrow{R[0,90^{\circ}]}{A}'(3,2)\]</p>
+      <center><p class="ref1a"> <b style="color:rgb(0, 104, 9)"></b>Rotasi sejauh \[90^{\circ}\] searah jarum jam dengan pusat \[O(0,0)\]</p></center>
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika \[P(x,y)\] dirotasikan sejauh \[90^{\circ}\] searah jarum jam dengan pusat \[O(0,0)\], maka diperoleh bayangan dari \[P\], yaitu \[{P}'({x}',{y}')\]. Dengan \[{x}'=y\] dan \[{y}'=-x\] atau dapat ditulis \[P(x,y)\xrightarrow{R[0,-90^{\circ}]}{P}'(y,-x)\]. Perhatikan gambar 16 dibawah ini
+      <center> <img src="rot1b.png" width="400" height="240"></center>
+      <center>
+        <i>
+          <b>Gambar 16. </b>
+         "Rotasi sejauh \[90^{\circ}\] searah jarum jam dengan pusat \[O(0,0)\] "
+        </i>
+      </center> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Titik \[B\] mempunyai titik \[(-4,3)\] yang dirotasikan sejauh \[90^{\circ}\] searah jarum jam dengan pusat \[O(0,0)\] maka menghasilkan bayangan dari \[B\], yaitu \[B(-4,3)\xrightarrow{R[0,-90^{\circ}]}{B}'(3,4)\]</p>
+      <center><p class="ref1a"> <b style="color:rgb(0, 104, 9)">Rotasi  sejauh \[180^{\circ}\] berlawanan maupun searah jarum jam dengan pusat \[O(0,0)\]</b></p></center>
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika \[P(x,y)\] dirotasikan sejauh \[180^{\circ}\] berlawanan maupun searah jarum jam dengan pusat \[O(0,0)\], maka diperoleh bayangan dari \[P\], yaitu \[{P}'({x}',{y}')\] dengan \[{x}'=-x\] dan \[{y}'=-y\] atau dapat ditulis \[P(x,y)\xrightarrow{R[0,180^{\circ}]}{P}'(-x,-y)\]. Perhatikan gambar 17 dibawah ini
+      <center> <img src="rot1c.png" width="400" height="240"></center>
+      <center>
+        <i>
+          <b>Gambar 17.</b>
+         "Rotasi  sejauh \[180^{\circ}\] berlawanan maupun searah jarum jam dengan pusat \[O(0,0)\]"
+        </i>
+      </center> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Titik \[C\] mempunyai titik \[(-6,-2)\] yang dirotasikan sejauh \[180^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\] maka menghasilkan bayangan dari \[C\], yaitu \[C(-6,-2)\xrightarrow{R[0,180^{\circ}]}{C}'(6,2)\]</p>
+
+    </div>
+    <div class="marimencobarot1">
+      <img src="marimencoba.png" width="250" height="70" class="gmb">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambarlah titik-titik \[A(2,2), B(-7,3),C(4,-5)\] dan \[D(-2,-5)\] dalam bidang kartesius. Dengan menggunakan busur derajat, rotasikan keempat titik tersebut sejauh \[90^{\circ}\] berlawanan arah jarum jam dengan pusat \[O(0,0)\]. Tuliskan hasilnya pada tabel berikut.
+        <center>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+        }
+        table mjx-container{text-align: center !important;}
+        th mjx-container{display: inline !important;}
+        </style>
+    <table style="width:80%">
+        <tr>
+          <th>Titik</th>
+          <th colspan="2">Bayangan</th> 
+        </tr>
+        <tr>
+          <th>\[A(2,2)\]</th>
+          <th>\[{A}'(\]<input id="c1" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc1">cek jawaban</button><p id="jbc1"></p></th>
+        </tr>
+        <tr>
+          <th>\[B(-7,3)\]</th>
+          <th>\[{B}'(\]<input id="c2" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc2">cek jawaban</button><p id="jbc2"></p></th>
+        </tr>
+        <tr>
+          <th>\[C(4,-5)\]</th>
+          <th>\[{C}'(\]<input id="c3" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc3">cek jawaban</button><p id="jbc3"></p></th>
+        </tr>
+        <tr>
+          <th>\[D(-2,-5)\]</th>
+          <th>\[{D}'(\]<input id="c4" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc4">cek jawaban</button><p id="jbc4"></p></th>
+        </tr>
+        </table>
+      </center>   
+    </p>
+     
+</div>
+</div>
+
+<footer>
+  <div class="footer">
+    <a href="Refleksi3c.html" class="back"><img src="back.png" width="30px" height="30px"></span>
+    <a class="active" href="Rotasi1.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a href="Rotasi1b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="Rotasi1c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="Rotasi1b.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materi.js"></script>
+<script src="marimencobarot1.js"></script>
+</body>
+</html>

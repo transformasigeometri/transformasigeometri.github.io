@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>Penerapan Transformasi dalam Pemecahan Masalah </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-container">
+          <a href="Translasi1.html">1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn activ" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+
+
+        
+    <div class="kanan">
+      <div class="judpen">
+        <h2>5. Penerapan Konsep Transformasi Geometri dalam Pemecahan Masalah</h2></div>
+        <br>
+        <button class="petunjukt1">Klik Untuk Melihat Petunjuk</button><br>
+                    <div id="petunjukt1" class="hilang">
+                      <ol class="ptrans1">
+                        <li>Pertanyaan ini terdiri dari 4 soal!</li>
+                        <li>Setelah kamu menjawab dengan benar, tekan tombol cek jawaban</li>
+                        <li>Jika jawaban kamu benar, maka akan muncul ikon <img src="cek.png" width="15px"> </li>
+                        <li>Jika jawaban kamu salah, maka akan muncul ikon <img src="salah.png" width="15px"> </li>
+                      </ol>
+                        
+                    </div>
+     <br>
+    
+        <center><img src="pertanyaan.png" width="250" height="70" class="gmb"></center>
+<div id="klik1"></div>
+<div id="klik2"></div>
+<div id="klik3"></div>
+<div class="pertanyaanpen">
+  <div class="slideshow-container">
+
+      <div class="mySlides" >
+          <p>1.<img src="perpen1.png" width="150" height="150"> Jenis transformasi yang digunakan untuk membuat pola motif sasirangan (hiris gagatas) seperti gambar di samping adalah....
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat1" name="pilih" value="tanyat1"><label for="tanyat1">Translasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat2" name="pilih" value="tanyat2"><label for="tanyat2">Refleksi \[x\] dan \[y\]</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat3" name="pilih" value="tanyat3"><label for="tanyat3">Dilatasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat4" name="pilih" value="tanyat4"><label for="tanyat4">Rotasi</label><br>
+        </p>
+        <center><button id="jp1">cek jawaban</button></center>
+        <span id="ket">
+        </span>
+      </div>
+      
+      <div class="mySlides" >
+        <p>2.<img src="perpen2.png" width="150" height="85"> Jenis transformasi yang digunakan untuk membuat pola motif sasirangan (bintang sudut ampat) seperti gambar di samping adalah.... 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat5" name="pilih2" value="tanyat5"><label for="tanyat5">Refleksi \[x\], \[y\] dan titik asal \[O\]</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat6" name="pilih2" value="tanyat6"><label for="tanyat6">Translasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat7" name="pilih2" value="tanyat7"><label for="tanyat7">Rotasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat8" name="pilih2" value="tanyat8"><label for="tanyat8">Dilatasi</label><br>
+        </p>
+        <center><button id="jp2">cek jawaban</button></center>
+        <span id="ket2">
+        </span>
+        </div>
+      
+      <div class="mySlides">
+        <p>3.<img src="perpen3.png" width="150" height="85"> Jenis transformasi yang digunakan untuk membuat pola motif sasirangan (bintang sudut tujuh) seperti gambar disamping adalah....
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat9" name="pilih3" value="tanyat9"><label for="tanyat9">Rotasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat10" name="pilih3" value="tanyat10"><label for="tanyat10">Dilatasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat11" name="pilih3" value="tanyat11"><label for="tanyat11">Refleksi \[x, y\] dan titik asal \[O\]</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat12" name="pilih3" value="tanyat12"><label for="tanyat12">Translasi</label><br>
+        </p>
+        <center><button id="jp3">cek jawaban</button></center>
+        <span id="ket3">
+        </span>
+      </div>
+      
+      <div class="mySlides">
+        <p>4.<img src="perpen4.png" width="150" height="85"> Jenis transformasi yang digunakan untuk membuat pola motif sasirangan (hiris gagatas) seperti gambar di samping adalah....
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat13" name="pilih4" value="tanyat13"><label for="tanyat13">Dilatasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat14" name="pilih4" value="tanyat14"><label for="tanyat14">Translasi</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat15" name="pilih4" value="tanyat15"><label for="tanyat15">Refleksi \[x, y\] dan titik asal \[O\]</label><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="tanyat16" name="pilih4" value="tanyat16"><label for="tanyat14">Rotasi</label><br>
+        </p>
+        <center><button id="jp4">cek jawaban</button></center>
+        <span id="ket4">
+        </span>
+      </div>
+
+      <a class="mundur" onclick="plusSlides(-1)">❮</a>
+      <a class="lanjut" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)">1</span> 
+        <span class="dot" onclick="currentSlide(2)">2</span> 
+        <span class="dot" onclick="currentSlide(3)">3</span>
+        <span class="dot" onclick="currentSlide(4)">4</span>
+      </div>
+</div>
+    </div>
+<footer>
+  <div class="footer">
+    <a href="penerapan.html" class="back"><img src="back.png" width="30px" height="30px"></a>
+    <a href="penerapan.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a class="active" href="pertanyaanpen.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="evaluasi.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materitrans13.js"></script>
+
+<script src="pertanyaanpenn.js"></script>
+</body>
+</html>

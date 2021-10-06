@@ -1,0 +1,168 @@
+<html>
+<head>
+<title> Translasi </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-containerr">
+          <a href="Translasi1.html" >1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html"class="hvr">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+
+    <div class="kanan">
+      <div class="judtrans1">
+        <h2>1.2 Translasi Bidang</h2></div>
+        <br>
+        <button class="petunjuk">Klik Untuk Melihat Tujuan Pembelajaran</button><br>
+                    <div id="petunjuk" class="hilang">
+                      Siswa dapat menentukan bayangan suatu bidang  setelah di translasi oleh titik dengan benar
+                        
+                    </div>
+     <br>
+    <p class="judt1" id="uk">
+      <img src="buku1.png" width="50px" height="25px">
+      Translasi Bidang
+    </p>
+    <div class="marimengamatitrans2">
+      <img src="marimengamati.png" width="250" height="70" class="gmb">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setelah kamu memahami bagaimana translasi pada sebuah garis, sekarang kamu akan mempelajari translasi dari suatu bidang datar. Perhatikan gambar 2 dibawah ini.</p>
+      <center> <img src="transbid1.png" width="400" height="240"></center>
+      <center>
+        <i>
+          <b>Gambar 2.</b>
+         " Translasi Bidang Datar"
+        </i>
+      </center> 
+      <p>Segitiga \[ABC\] ditranslasikan sehingga menghasilkan segitiga \[{A}'{B}'{C}'\]. Untuk mentranslasikan bidang datar cukup kita geser titik-titik sudut dari bangun tersebut.</p>
+    </div>
+    <div class="marimencobatrans2">
+      <img src="marimencoba.png" width="250" height="70" class="gmb">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambarlah titik \[A(4,2), B(9,2), C(7, 4), D(4,4)\] dalam suatu bidang kartesius. Hubungkan keempat titik tersebut. Translasikan setiap titik tersebut oleh \[T=(-6,2)\].
+        Tuliskan setiap bayangan titik pada tabel berikut!
+      <center>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+        }
+        table mjx-container{text-align: center !important;}
+        th mjx-container{display: inline !important;}
+        </style>
+    <table style="width:80%">
+        <tr>
+          <th>Titik</th>
+          <th colspan="2">Bayangan</th> 
+        </tr>
+        <tr>
+          <th>\[A(4,2)\]</th>
+          <th>\[{A}'(\]<input id="c1" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc1">cek jawaban</button><p id="jbc1"></p></th>
+        </tr>
+        <tr>
+          <th>\[B(9,2)\]</th>
+          <th>\[{B}'(\]<input id="c2" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc2">cek jawaban</button><p id="jbc2"></p></th>
+        </tr>
+        <tr>
+          <th>\[C(7,4)\]</th>
+          <th>\[{C}'(\]<input id="c3" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc3">cek jawaban</button><p id="jbc3"></p></th>
+        </tr>
+        <tr>
+          <th>\[D(4,4)\]</th>
+          <th>\[{D}'(\]<input id="c4" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc4">cek jawaban</button><p id="jbc4"></p></th>
+        </tr>
+        </table>
+      </center>
+    </p>
+      </div>
+     
+</div>
+
+
+<footer>
+  <div class="footer">
+    <a href="Translasi1c.html" class="back"><img src="back.png" width="30px" height="30px"></span>
+    <a class="active" href="Translasi2.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a href="Translasi2b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="Translasi2c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="Translasi2b.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materi.js"></script>
+<script src="marimencobatrans2.js"></script>
+</body>
+</html>

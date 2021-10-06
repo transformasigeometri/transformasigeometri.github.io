@@ -1,0 +1,156 @@
+<html>
+<head>
+<title> Translasi </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-containerr">
+          <a href="Translasi1.html" class="hvr">1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+       
+    <div class="kanan">
+      <div class="judtrans1">
+        <h2>1.1 Translasi Titik dan Garis</h2></div>
+        <br>
+        <button class="petunjuk">Klik Untuk Melihat Petunjuk</button><br>
+                    <div id="petunjuk" class="hilang">
+                      <b>Tekan button pembahasan (<img src="pembahasan.png" width="90px">) untuk melihat penjelasan jawaban pada contoh soal</b>
+      
+                    </div>
+     <br>
+    <p class="judt1" id="uk">
+      <img src="buku1.png" width="50px" height="25px">
+      Translasi Titik dan Garis
+    </p>
+    
+      <div class="cthsoaltrans1">
+        <img src="contohsoal.png" width="250" height="70" class="gmb">
+        <ol class="csoaltrans1"> 
+        <li>Tentukan bayangan dari titik \[A(3,4)\] dan \[B(-3,-5)\] oleh translasi \[T=(2,-4)\]
+        <br><p class="klik1cst" id="klik1">Pembahasan :</p>
+        <p class="hilang" id="hilang1"><b style="color:red">Untuk titik \[A(3,4):\]</b>
+        <br>\[A(3,4)\xrightarrow{(2,-4)}{A}'(3+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[, 4+(\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[))={A}'(\]<input id="cthst1" type="text" value placeholder="...,..." style="width: 50px;" class="cst1 ">\[)\]
+        <br><b style="color:red">Untuk titik \[B(-3,-5):\]</b>
+        <br>\[B(-3,-5)\xrightarrow{(2,-4)}{B}'((-3)+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 "> \[,(-5)+(\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[))\]\[={B}'(\]<input id="cthst1" type="text" value placeholder="...,..." style="width: 50px;" class="cst1 ">\[)\]
+        </li></p>
+        <br>
+        <li>Translasi \[T=(a,b)\] memetakan titik \[P(-4,-2)\] ke titik \[{P}'(-2,-3)\]. Tentukan nilai \[a+b\].
+        <br><p class="klik1cst" id="klik2">Pembahasan :</p>
+        <p class="hilang" id="hilang2">\[P(-4,-2)\xrightarrow{(a,b)}{P}'(-4+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[, -2+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[)={P}'(\]<input id="cthst1" type="text" value placeholder="...,..." style="width: 50px;" class="cst1 ">\[)\], sehingga diperoleh:
+        <br><b style="color:red">Nilai a :</b>
+        <br>\[-4+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 "> \[=-2\]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[ = \]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br><b style="color:red">Nilai b :</b>
+        <br>\[-2+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 "> \[=-3\]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[ = \]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br><b style="color:red">\[\therefore\]</b> Nilai \[a+b=\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        </li></p>
+        <br><li>Diketahui suatu persamaan garis lurus \[y=3x+5\]. Jika garis tersebut ditranslasi oleh \[T=(2,1)\], tentukan persamaan bayangannya.
+        <br><p class="klik1cst" id="klik3">Pembahasan :</p>
+        <p class="hilang" id="hilang3"><b style="color:red">Diketahui :</b>
+        <br>\[T=(2,1)\]
+        <br>\[a=2\] dan \[b=1\]
+        <br>Rumus translasi adalah <b style="color:red">\[P(x,y)\xrightarrow{T[a,b]}{P}'((x+a),(y+b))\]</b>
+        <br>\[{x}'=x+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br>\[x+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[={x}'\]
+        <br><b style="color:red">\[\therefore x=\]<input id="cthst1" type="text" placeholder="..." style="width: 60px;" class="cst1 "></b>
+        <br>\[{y}'=y+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br>\[y+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[={y}'\]
+        <br><b style="color:red">\[\therefore y=\]<input id="cthst1" type="text" placeholder="..." style="width: 60px;" class="cst1 "></b>
+        <br>Subtitusikan <b style="color:red">\[x\]</b> dan <b style="color:red">\[y\]</b> ini ke persamaan garis, maka diperoleh :
+        <br>\[y=3x+5\]
+        <br><input id="cthst1" type="text" placeholder="..." style="width: 60px;" class="cst1 ">\[=3(\]<input id="cthst1" type="text" placeholder="..." style="width: 60px;" class="cst1 ">\[)+5\]
+        <br><input id="cthst1" type="text" placeholder="..." style="width: 60px;" class="cst1 ">\[=\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[-\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[+5\]
+        <br><input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[=\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[-\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[+5+\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br><input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">\[=\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 ">
+        <br><b style="color:red">\[\therefore y=\]<input id="cthst1" type="text" placeholder="..." style="width: 30px;" class="cst1 "></b>
+        </li></p>
+        </ol>
+      </div>
+      
+</div>
+
+
+<footer>
+  <div class="footer">
+    <a href="Translasi1.html" class="back"><img src="back.png" width="30px" height="30px"></a>
+    <a href="Translasi1.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a class="active" href="Translasi1b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="Translasi1c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="Translasi1c.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materi.js"></script>
+<script src="csoaltrans1.js"></script>
+</body>
+</html>

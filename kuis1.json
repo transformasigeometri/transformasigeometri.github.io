@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Bayangan titik \\[A(3,4)\\] jika ditranslasikan oleh \\[T=(1,2)\\] adalah....",
+        "a": "a. \\[{A}'( 4 , 6 )\\]",
+        "b": "b. \\[{A}'( 2 , 2 )\\]",
+        "c": "c. \\[{A}'( 6, 4 )\\]",
+        "d": "d. \\[{A}'( 2 , 6 )\\]",
+        "benar": "a",
+        "nih": "a. \\[{A}'( 4 , 6 )\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Bayangan titik \\[B(-4,2)\\] jika ditranslasikan oleh \\[T=(2,-3)\\] adalah....",
+        "a": "a. \\[{B}'( -2 , -5 )\\]",
+        "b": "b. \\[{B}'( 2 , -1 )\\]",
+        "c": "c. \\[{B}'( -2, -1 )\\]",
+        "d": "d. \\[{B}'( -2 , 5 )\\]",
+        "benar": "c",
+        "nih": "c. \\[{B}'( -2, -1 )\\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Bayangan titik \\[C(7,1)\\] jika ditranslasikan oleh \\[T=(8,5)\\] adalah....",
+        "a": "a. \\[{C}'( 1 , -4 )\\]",
+        "b": "b. \\[{C}'( 16 , 6 )\\]",
+        "c": "c. \\[{C}'( 15 , 6 )\\]",
+        "d": "d. \\[{C}'( -1 , 4 )\\]",
+        "benar": "c",
+        "nih": "c. \\[{C}'( 15 , 6 )\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Bayangan titik \\[D(-2,6)\\] jika ditranslasikan oleh \\[T=(-11,3)\\] adalah....",
+        "a": "a. \\[{D}'( -9 , 9 )\\]",
+        "b": "b. \\[{D}'( -13 , 9 )\\]",
+        "c": "c. \\[{D}'( -9 , 3 )\\]",
+        "d": "d. \\[{D}'( -13 , -9 )\\]",
+        "benar": "b",
+        "nih": "b. \\[{D}'( -13 , 9 )\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Bayangan titik \\[Q(-4,1)\\] jika ditranslasikan oleh \\[T=(5,-2)\\] adalah....",
+        "a": "a. \\[{Q}'( 9 , 3 )\\]",
+        "b": "b. \\[{Q}'( 14 , -5 )\\]",
+        "c": "c. \\[{Q}'( 1 , 1 )\\]",
+        "d": "d. \\[{Q}'( 1 , -1 )\\]",
+        "benar": "d",
+        "nih": "d. \\[{Q}'( 1 , -1 )\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Titik \\[B(6,-11)\\] ditranslasikan oleh \\[T=(a,b)\\] bayangannya menjadi \\[{B}'(-2,-2)\\]. Maka nilai \\[a+b\\] adalah....",
+        "a": "a. \\[-1\\]",
+        "b": "b. \\[1\\]",
+        "c": "c. \\[5\\]",
+        "d": "d. \\[6\\]",
+        "benar": "b",
+        "nih": "b. \\[1\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Jika persamaan garis lurus \\[y=2x+3\\], maka persamaan garis lurus yang dihasilkan oleh translasi \\[T=(3,2)\\] adalah....",
+        "a": "a. \\[y = 3x \\]",
+        "b": "b. \\[y = 2x + 6 \\]",
+        "c": "c. \\[y = 2x - 1\\]",
+        "d": "d. \\[y = 2x - 4\\]",
+        "benar": "c",
+        "nih": "c. \\[y = 2x - 1\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Garis \\[y=2x-3\\] ditranslasikan oleh \\[T=(-2,3)\\]. Persamaan bayangan garis tersebut adalah....",
+        "a": "a. \\[y = -2x + 4 \\]",
+        "b": "b. \\[y = 2x + 4 \\]",
+        "c": "c. \\[y = 2x - 4 \\]",
+        "d": "d. \\[y = 2x - 3 \\]",
+        "benar": "b",
+        "nih": "b. \\[y = 2x + 4 \\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Titik \\[(p,q)\\] ditranslasi \\[T=(3,4)\\] menghasilkan titik \\[(-4,6)\\]. Maka jika nilai \\[p+q\\] adalah....",
+        "a": "a. \\[2\\]",
+        "b": "b. \\[3\\]",
+        "c": "c. \\[-3\\]",
+        "d": "d. \\[-4\\]",
+        "benar": "b",
+        "nih": "b. \\[3\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Jika koordinat segitiga \\[ABC\\] adalah \\[A(-3,-2),B(2,1),C(0,4)\\] menghasilkan bayangan segitiga \\[{A}'{B}'{C}'\\] adalah \\[{A}'(1,-1),{B}'(6,2),{C}'(4,5)\\]. Maka nilai dari translasi \\[T\\] adalah....",
+        "a": "a. \\[( -4 , 1 )\\]",
+        "b": "b. \\[( -4 , -1 )\\]",
+        "c": "c. \\[( 4 , -1 )\\]",
+        "d": "d. \\[( 4 , 1 )\\]",
+        "benar": "d",
+        "nih": "d. \\[( 4 , 1 )\\]"
+    }
+}]

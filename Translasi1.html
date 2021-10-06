@@ -1,0 +1,180 @@
+<html>
+<head>
+<title> Translasi </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-containerr">
+          <a href="Translasi1.html" class="hvr">1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+
+    <div class="kanan">
+      <div class="judtrans1">
+        <h2>1.1 Translasi Titik dan Garis</h2></div>
+        <br>
+        <button class="petunjuk">Klik Untuk Melihat Tujuan Pembelajaran</button><br>
+                    <div id="petunjuk" class="hilang">
+                      <b>Tujuan Pembelajaran</b>
+                      Siswa dapat menentukan bayangan suatu titik dan garis setelah di translasi terhadap titik
+                        
+                    </div>
+     <br>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setelah kalian mengenal apa itu transformasi geometri dan penerapannya dalam kehidupan sehari-hari. Sekarang kita akan mempelajari bagaimana menentukan bayangan dari suatu titik dan garis setelah ditranslasi.</p>
+    <p class="judt1" id="uk">
+      <img src="buku1.png" width="50px" height="25px">
+      Translasi Titik dan Garis
+    </p>
+    <div class="marimengamatitrans1">
+      <img src="marimengamati.png" width="250" height="70" class="gmb">
+    <p>Diketahui \[A(0,0)\] ditranslasikan oleh \[T=(2,4)\]. Dan titik \[B(3,1)\] ditranslasikan oleh \[T=(-5,1)\]. Bagaimanakah cara mencari bayangan \[A ({A}')\] dan bayangan \[B ({B}')\]?
+    <br>
+    <ol class="mmencobatrans1"> 
+      <li>Titik \[A(0,0)\] ditanslasikan oleh \[T(2,4)\]. 
+        <br>Artinya
+        <br>Langkah 1: Titik A digeser ke kanan sejauh 2 satuan, 
+        <br>Langkah 2: lalu ke atas sejauh 4 satuan,
+        <br>Langkah 3: sehingga bergeser ke titik 
+        <br>\[{A}'(0+2, 0+4) = {A}'(2,4)\]
+        <br>Atau bisa ditulis dengan 
+        <br>\[A(0,0)\xrightarrow{2,4}{A}'(0+2, 0+4) = {A}'(2,4)\]
+      </li><br>
+      <center>
+        <iframe src="https://scratch.mit.edu/projects/577701344/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </center>
+      <li>Titik \[B(3,1)\] ditranslasikan oleh \[T(-5,1)\]
+        <br>Artinya
+        <br>Langkah 1: titik B digeser ke kiri sejauh 5 satuan,
+        <br>Langkah 2: lalu ke atas sejauh 1 satuan
+        <br>Langkah 3: sehingga bergeser ke titik 
+        <br>\[{B}'(3-5, 1+1)={B}'(-2, 2)\] 
+        <br>Atau bisa ditulis dengan \[B(3,1)\xrightarrow{(-5, 1)}{B}'(3-5, 1+1)={B}'(-2, 2)\]
+        <center>
+          <iframe src="https://scratch.mit.edu/projects/577708278/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </center>
+        <br>\[\therefore\] Berdasarkan kedua contoh tersebut, jika titik \[P(x,y)\] ditranslasi oleh \[T(a,b)\] maka menghasilkan \[{P}'({x}',{y}')\]. Atau dapat ditulis dengan rumus :
+        <p class="rumus">
+          \[P(x,y)\xrightarrow{T[a,b]}{P}'((x+a),(y+b))\]
+        </p>
+      </li>
+    </ol>
+    </p>
+    </div>
+    <div class="marimencobatrans1">
+      <img src="marimencoba.png" width="250" height="70" class="gmb">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambarlah titik A(2,4), B(-3,5), C(-6, -4) pada suatu bidang kartesius. Geserlah setiap titik ke arah sumbu-X positif(kanan) sejauh 3 satuan dan ke arah sumbu-Y positif(atas) sejauh 2 satuan. Hal ini sama dengan translasi T=(3,2).
+      <br>Tuliskan koordinat bayangan setiap titik pada tabel berikut. 
+      <center>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+        }
+        table mjx-container{text-align: center !important;}
+        th mjx-container{display: inline !important;}
+        </style>
+    <table style="width:80%">
+        <tr>
+          <th>Titik</th>
+          <th colspan="2">Bayangan</th> 
+        </tr>
+        <tr>
+          <th>\[A(2,4)\]</th>
+          <th>\[{A}'(\]<input id="c1" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc1">cek jawaban</button><p id="jbc1"></p></th>
+        </tr>
+        <tr>
+          <th>\[B(-3,5)\]</th>
+          <th>\[{B}'(\]<input id="c2" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc2">cek jawaban</button><p id="jbc2"></p></th>
+        </tr>
+        <tr>
+          <th>\[C(-6,-4)\]</th>
+          <th>\[{C}'(\]<input id="c3" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc3">cek jawaban</button><p id="jbc3"></p></th>
+        </tr>
+        </table>
+      </center>
+    </p>
+      </div>
+     
+</div>
+
+
+<footer>
+  <div class="footer">
+    <a href="Apersepsi.html"class="back"><img src="back.png" width="30px" height="30px"></span>
+    <a class="active" href="Translasi1.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a href="Translasi1b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="Translasi1c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="Translasi1b.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+
+<script src="materi.js"></script>
+<script src="marimencobatrans1.js"></script>
+</body>
+</html>
