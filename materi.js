@@ -25,19 +25,4 @@ xx.addEventListener("click",function(){
 })
 
 
-//Contoh Soal//
-let klik1= document.getElementById("klik1");
-let hilang1= document.getElementById("hilang1");
-klik1.addEventListener("click",function(){
-	hilang1.classList.toggle("hilang");
-	})
-let klik2= document.getElementById("klik2");
-let hilang2= document.getElementById("hilang2");
-klik2.addEventListener("click",function(){
-	  hilang2.classList.toggle("hilang");
-	})
-let klik3= document.getElementById("klik3");
-let hilang3= document.getElementById("hilang3");
-klik3.addEventListener("click",function(){
-	hilang3.classList.toggle("hilang");
-	})
+
