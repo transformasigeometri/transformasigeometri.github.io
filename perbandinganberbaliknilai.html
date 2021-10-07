@@ -1,0 +1,181 @@
+<html>
+<head>
+<title> materi </title>
+<link rel="stylesheet" href="materi.css">
+</head>
+<body>
+    <script>MathJax={
+        tex:{
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };</script>
+      <script src= 'https://codepen.io/MaciejCaputa/pen/2100d933c0577daf9ab4e3e65cec6b36.js'></script>
+      <script src= 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<img src="perbandingan.png" style="width:100%"; height="300px"> 
+<ul>
+  <li><a href="halaman awal.html">Home</a></li>
+  <li><a href="kikd.html">KI&KD</a></li>
+  <li><a href="materi.html">Materi</a></li>
+  <li><a href="quiz.html">Quiz</a></li>
+  <li><a href="about.html">About</a></li>
+      </ul>
+      <nav>
+        <ul>
+          <li><a href="materi.html">Pengertian Perbandingan</a></li>
+          <li><a href="perbandingansenilai.html">Perbandingan Senilai</a></li>
+          <li><a href="perbandinganberbaliknilai.html">Perbandingan Berbalik Nilai</a></li>
+        </ul>
+    </nav>
+<div class="kiri">
+    <p> 1. Suatu pekerjaan dapat diselesaikan oleh 25 orang dalam waktu 32 hari. Jika dikerjakan oleh 20 orang maka akan selesai dalam ... hari. </p>
+    <input type ="text" id="soal1" value="">
+    <button onclick="bbnilai1()">Periksa</button>
+    <p id="demo"></p>
+    <br>
+    <p> 2. Sebuah piringan hitam berputar 45 putaran per menit selama 13 menit. Berapa lama piringan hitam berputar jika kecepatan putarannya 78 putaran per menit? </p>
+    <input type ="text" id="soal2" value="">
+    <button onclick="bbnilai2()">Periksa</button>
+    <p id="demo2"></p>
+    <br>
+    <p> 3. Sebuah ruangan yang kotor memerlukan waktu 18 menit apabila dibersihkan oleh 5 orang. Bila ruangan tersebut hanya dibersihkan oleh 3 orang, maka waktu yang diperlukan adalah... </p>
+    <input type ="text" id="soal3" value="">
+    <button onclick="bbnilai3()">Periksa</button>
+    <p id="demo3"></p>  
+    <br>
+    <p> 4. Dua puluh lima orang dapat menyelesaikan suatu pekerjaan selama 54 hari. Jika dikerjakan oleh 18 orang, maka pekerjaan itu akan selesai dalam waktu ... hari.</p>
+    <input type ="text" id="soal4" value="">
+    <button onclick="bbnilai4()">Periksa</button>
+    <p id="demo4"></p>
+    <br>
+    <p> 5. Pak Raden membagikan uang kepada 45 anak. Masing-masing anak mendapat Rp 4.000,00. Jika uang itu dibagikan kepada 60 anak, maka uang yang diterima masing-masing anak adalah ... </p>
+    <input type ="text" id="soal5" value="">
+    <button onclick="bbnilai5()">Periksa</button>
+    <p id="demo5"></p>
+    <br>
+    <p> 6. Pak Margono menyediakan rumput yang cukup untuk 18 ekor sapinya selama 4 hari. Jika ia membeli 6 ekor lagi, maka persediaan rumput akan habis dalam ... </p>
+    <input type ="text" id="soal6" value="">
+    <button onclick="bbnilai6()">Periksa</button>
+    <p id="demo6"></p>
+    <br>
+    <p> 7. Seorang peternak ayam mempunyai persediaan makanan untuk 1.000 ekor ayam selama 2 minggu. Jika ia menambah 400 ekor ayam lagi, maka persediaan makanan itu akan habis dalam waktu ... </p>
+    <input type ="text" id="soal7" value="">
+    <button onclick="bbnilai7()">Periksa</button>
+    <p id="demo7"></p>
+    <br>
+    <p> 8. Seorang peternak memiliki persediaan makanan untuk 20 ekor ternaknya selama 15 minggu. Jika 10 ternaknya dijual, maka persediaan makanan akan habis dalam waktu .... minggu. </p>
+    <input type ="text" id="soal8" value="">
+    <button onclick="bbnilai8()">Periksa</button>
+    <p id="demo8"></p>
+    <br>
+    <p> 9. Seorang pedagang membeli 40 pensil dengan harga Rp 1.200,00 per buah. Jika dengan jumlah uang yang sama, ia ingin membeli 50 pensil, maka harga sebuah pensil adalah... </p>
+    <input type ="text" id="soal9" value="">
+    <button onclick="bbnilai9()">Periksa</button>
+    <p id="demo9"></p>
+    <br>
+    <p> 10. Sawah Pak Imam selesai dicangkul oleh 15 orang pekerja dalam waktu 6 hari. Jika hanya terdapat 9 orang pekerja berapa hari sawah Pak Imam selesai dicangkul? </p>
+    <input type ="text" id="soal10" value="">
+    <button onclick="bbnilai10()">Periksa</button>
+    <p id="demo10"></p>
+</div>
+<div class="kanan">
+    <img src="jdlberblknilai.png" width="500px" height="80px";>
+    <p>Perbandingan berbalik nilai adalah perbandingan dari dua atau lebih besaran dimana jika suatu unsur bertambah, maka unsur lainnya berkurang atau turun nilainya dan sebaliknya. Konsep logika yang digunakan adalah berbanding terbalik.</p>
+    <p>Contoh penerapan perbandingan berbalik nilai adalah hubungan kecepatan kendaraan dan waktu tempuh. Semakin tinggi kecepatan kendaraan, maka semakin singkat waktu tempuhnya. Semakin lambat / rendah kecepatan kendaraan, maka semakin lama waktu tempuhnya.</p>
+    <p>Tabel di bawah ini menunjukkan hubungan antara kecepatan suatu kendaraan dengan waktu yang diperlukan untuk menempuh jarak 200 km.</p>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+      }
+      </style>
+  <table style="width:100%">
+      <tr>
+        <th>Kecepatan(km/jam)</th>
+        <th>Waktu Tempuh (jam)</th> 
+      </tr>
+      <tr>
+        <th>10</th>
+        <th>20</th>
+      </tr>
+      <tr>
+        <th>20</th>
+        <th>10</th>
+      </tr>
+      <tr>
+        <th>40</th>
+        <th>5</th>
+      </tr>
+      <tr>
+        <th>40</th>
+        <th>5</th>
+      </tr>
+      <tr>
+        <th>100</th>
+        <th>2</th>
+      </tr>
+      </table>
+      <br>
+    <p>Antara waktu dan kecepatan merupakan perbandingan yang saling berbalikan. Perbandingan semacam ini dinamakan perbandingan berbalik nilai atau berbalik harga.</p>
+    <img src="cthsoal.png" width="500px" height="80px";>
+    <p>Sebuah pondok pesantren putri memiliki persediaan beras yang cukup untuk 35 anak selama 24 hari. Berapa hari beras itu akan habis jika penghuni pondok bertambah 5 anak?</p>
+    <br>
+    <p>Jawab:</p>
+    <p>=>Menggunakan cara dengan perhitungan perbandingan</p>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+      }
+      </style>
+  <table style="width:100%">
+      <tr>
+        <th>Banyak anak</th>
+        <th>Banyak hari</th> 
+      </tr>
+      <tr>
+        <th>35</th>
+        <th>24</th>
+      </tr>
+      <tr>
+        <th>35+5</th>
+        <th>p</th>
+      </tr>
+      </table>
+      <br>
+    <p>Karena banyak anak dan banyak hari merupakan perbandingan berbalik nilai (berbalik harga) maka kita gunakan</p>
+    <img src="berbaliknilai.JPG" width="150px" height="120px";>
+    <p>Keterangan:</p>
+    <p>a dan b adalah nilai besaran</p>
+    <p>n adalah notasi untuk angka nyata (harga, jarak, kecepatan, dsb)</p>
+    <p>p adalah perhitungan perbandingan</p>
+    <br>
+    <p>Sekarang kita gunakan rumusnya dengan cara perkalian silang antara pembilang dan penyebutnya </p>
+    <p>$\frac{a}{b} = \frac{p}{n}$</p>
+    <p>$\frac{35}{40} = \frac{p}{24}$</p>
+    <p>Diselesaikan dengan perkalian silang</p>
+    <p>p x b = a x n</p>
+    <p>p x 40 = 35 x 24</p>
+    <p>40p = 840</p>
+    <p>p= $\frac{840}{40} = 21$</p>
+    <p>Jadi beras akan habis selama 21 hari</p>
+    <br>
+    <p>=>Menggunakan cara cepat</p>
+    <p>Berdasarkan soal:</p>
+    <p>Sebuah pondok pesantren putri memiliki persediaan beras yang cukup untuk 35 anak selama 24 hari. Berapa hari beras itu akan habis jika penghuni pondok bertambah 5 anak?</p>
+    <p>Jawab: </p>
+    <p>Yang diketahui adalah jumlah anak yaitu 35. Jadikan 35 sebagai pembilang (a). 24 hari sebagai pengali (n), dan yang ditanyakan adalah jumlah hari jika jumlah anak 40 (35 + 5). Jumlah anak yaitu 40 jadikan penyebut (b).</p>
+    <p>p = $\frac{a}{b}$ x n</p>
+    <p>p = $\frac{35}{40}$ x 24 = 21</p>
+    <p>Jadi beras akan habis selama 21 hari</p>
+  </div>
+
+<div class="footer">©rikamuliana</div>
+<script src="berbaliknilai.js"></script>
+</body>
+</html>

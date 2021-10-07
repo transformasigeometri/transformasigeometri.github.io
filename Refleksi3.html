@@ -1,0 +1,234 @@
+<html>
+<head>
+<title> Refleksi </title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-container">
+          <a href="Translasi1.html" >1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-containerr">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html"class="hvr">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+        <div id="klik1"></div>
+        <div id="klik2"></div>
+        <div id="klik3"></div>
+    <div class="kanan">
+      <div class="judref1">
+        <h2>2.3 Refleksi terhadap Garis \[x=a\] dan \[y=b\]</h2></div>
+        <br>
+        <button class="petunjukr2">Klik Untuk Melihat Tujuan Pembelajaran</button><br>
+                    <div id="petunjukr2" class="hilang">
+                    <ol>
+                        <b>Tujuan Pembelajaran:</b>
+                        <br>
+                    <li>
+                        Siswa dapat menentukan bayangan suatu objek setelah direfleksi terhadap garis \[x=a\] dengan benar
+                    </li>
+                    <li>
+                        Siswa dapat menentukan bayangan suatu objek setelah direfleksi terhadap garis \[y=b\] dengan benar
+                    </li>
+                    </ol> 
+                    </div>
+     <br>
+    <p class="judt1" id="uk">
+      <img src="buku1.png" width="50px" height="25px">
+      Refleksi terhadap Garis \[x=a\] dan \[y=b\]
+    </p>
+    <div class="marimengamatiref3">
+      <img src="marimengamati.png" width="250" height="70" class="gmb">
+      <center><p class="ref1a"> <b style="color:rgb(0, 104, 9)">Refleksi Terhadap Garis \[x=a\]</b></p></center>
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secara umum, refleksi terhadap garis \[x=a\] dapat didefinisikan sebagai berikut.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika \[P(x,y)\] direfleksikan terhadap garis \[x=a\], maka diperoleh bayangan dari \[P\], yaitu \[{P}'({x}',{y}')\]. Dengan \[{x}'=2a-x\] dan \[{y}'=y\] atau dapat ditulis \[P(x,y)\xrightarrow{x=a}{P}'(2a-x,y)\]. Perhatikan gambar 11 dibawah ini.
+      <center> <img src="ref3a.png" width="400" height="240"></center>
+      <center>
+        <i>
+            <p class="gmbr"><b>Gambar 11.</b>
+         " Refleksi terhadap garis \[x=a\]"</p>
+        </i>
+      </center> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebuah segitiga \[ABC\] mempunyai titik \[A(-3,-1)\] direfleksikan terhadap garis \[x=3\] menghasilkan bayangan  <b style="color:red">\[{A}'(9,-1)\]</b>, titik \[B(-4, -2)\] direfleksikan terhadap garis \[x=3\] menghasilkan bayangan  <b style="color:red">\[{B}'(10,-2)\]</b> dan titik \[C(-2,-2)\] direfleksikan terhadap garis \[x=3\] menghasilkan bayangan  <b style="color:red">\[{C}'(8,-2)\]</b>.</p>
+      <center><p class="ref1a"> <b style="color:rgb(0, 104, 9);" >Refleksi Terhadap Garis \[y=b\]</b></p></center>
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secara umum, refleksi terhadap garis \[y=b\] dapat didefinisikan sebagai berikut.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jika \[P(x,y)\] direfleksikan terhadap garis \[y=b\], maka diperoleh bayangan dari \[P\], yaitu \[{P}'({x}',{y}')]. Dengan \[{x}'=x\] dan \[{y}'=2b-y\] atau dapat ditulis \[P(x,y)\xrightarrow{y=b}{P}'(x,2b-y)\]. Perhatikan gambar 12 dibawah ini.
+      <center> <img src="ref3b.png" width="400" height="240"></center>
+      <center>
+        <i>
+            <p class="gmbr"><b>Gambar 12.</b>
+         " Refleksi terhadap garis \[y=b\]"</p>
+        </i>
+      </center> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebuah segitiga \[ABC\] mempunyai titik \[A(5,2)\] direfleksikan terhadap garis \[y=-2\] menghasilkan bayangan <b style="color:red">\[{A}'(5,-6)\]</b>, titik \[B(4,1)\] direfleksikan terhadap garis \[y=-2\] menghasilkan bayangan <b style="color:red">\[{B}'(4,-5)\]</b> dan titik \[C(6,1)\] direfleksikan terhadap garis \[y=-2\] menghasilkan bayangan <b style="color:red">\[{C}'(6,-5)\]</b>.</p>
+      
+    </div>
+    <div class="marimencobatrans2">
+      <img src="marimencoba.png" width="250" height="70" class="gmb">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diketahui titik \[A(3,2), B(5,4)\], dan \[C(7,2)\] dalam suatu bidang kartesius. Tentukan bayangan dari :
+        <div class="slideshow-container">
+          <div class="mySlides" >
+          <p>a. Refleksikan terhadap garis \[x=2\]</p>
+        <center>
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+        }
+        table mjx-container{text-align: center !important;}
+        th mjx-container{display: inline !important;}
+        </style>
+    <table style="width:80%">
+        <tr>
+          <th>Titik</th>
+          <th colspan="2">Bayangan</th> 
+        </tr>
+        <tr>
+          <th>\[A(3,2)\]</th>
+          <th>\[{A}'(\]<input id="c1" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc1">cek jawaban</button><p id="jbc1"></p></th>
+        </tr>
+        <tr>
+          <th>\[B(5,4)\]</th>
+          <th>\[{B}'(\]<input id="c2" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc2">cek jawaban</button><p id="jbc2"></p></th>
+        </tr>
+        <tr>
+          <th>\[C(7,2)\]</th>
+          <th>\[{C}'(\]<input id="c3" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+          <th><button id="jc3">cek jawaban</button><p id="jbc3"></p></th>
+        </tr>
+        </table>
+      </center>   
+    </p>
+      </div>
+      <div class="mySlides" >
+        <p>b. Refleksikan terhadap garis \[y=-2\]</p>
+      <center>
+    <style>
+      table, th, td { 
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+      }
+      table mjx-container{text-align: center !important;}
+      th mjx-container{display: inline !important;}
+      </style>
+  <table style="width:80%">
+      <tr>
+        <th>Titik</th>
+        <th colspan="2">Bayangan</th> 
+      </tr>
+      <tr>
+        <th>\[A(3,2)\]</th>
+        <th>\[{A}'(\]<input id="c4" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+        <th><button id="jc4">cek jawaban</button><p id="jbc4"></p></th>
+      </tr>
+      <tr>
+        <th>\[B(5,4)\]</th>
+        <th>\[{B}'(\]<input id="c5" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+        <th><button id="jc5">cek jawaban</button><p id="jbc5"></p></th>
+      </tr>
+      <tr>
+        <th>\[C(7,2)\]</th>
+        <th>\[{C}'(\]<input id="c6" type="text" value placeholder="...,..." style="width:40px">\[)\]</th>
+        <th><button id="jc6">cek jawaban</button><p id="jbc6"></p></th>
+      </tr>
+      </table>
+    </center>  
+  </p>
+    </div>
+  
+      <a class="mundur" onclick="plusSlides(-1)">❮</a>
+      <a class="lanjut" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)">1</span> 
+      <span class="dot" onclick="currentSlide(2)">2</span> 
+    </div>
+</div>
+</div>
+
+<footer>
+  <div class="footer">
+    <a href="Refleksi2c.html" class="back"><img src="back.png" width="30px" height="30px"></span>
+    <a class="active" href="Refleksi3.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a href="Refleksi3b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a href="Refleksi3c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="Refleksi3b.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materiref2.js"></script>
+<script src="marimencobaref3.js"></script>
+</body>
+</html>

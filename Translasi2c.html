@@ -1,0 +1,180 @@
+<html>
+<head>
+<title> Translasi</title>
+<link rel="stylesheet" href="materi.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <img src="judul.gif" style="width:100%"; height="100px"> 
+<ul>
+  <li><a href="halaman awal.html"><img src="home.png" width="60" height="35"></a></li>
+      </ul>
+      <nav>
+        <button class="bttn" button onclick="location.href='Apersepsi.html'">Apersepsi</button>
+        <div class="button-nav">
+        <button class="dropbtn dropdown-btn" onclick="ftampil()">1. Translasi
+          <i class="fa fa-caret-down"></i>
+        </button>
+  
+        <div class="dropdown-content dropdown-containerr">
+          <a href="Translasi1.html" >1.1 Translasi Titik dan Garis</a>
+          <a href="Translasi2.html"class="hvr">1.2 Translasi Bidang</a>
+          <a href="TranslasiC.html">Rangkuman</a>
+          <a href="kuis1_awal.html">Kuis</a>
+        </div>
+  
+    
+        
+         <button class="dropbtn dropdown-btn" onclick="ftampil()">2. Refleksi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+  
+         <div class="dropdown-content dropdown-container">
+           <a href="Refleksi1.html">2.1 Refleksi terhadap sumbu-X, sumbu-Y, dan Titik Asal 0</a>
+           <a href="Refleksi2.html">2.2 Refleksi terhadap garis y=x dan y=-x</a>
+           <a href="Refleksi3.html">2.3 Refleksi terhadap garis x=a dan y=b</a>
+           <a href="RefleksiC.html">Rangkuman</a>
+           <a href="RefleksiK.html">Kuis</a>
+           
+          </div>
+        
+   
+      
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">3. Rotasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Rotasi1.html">3.1 Rotasi dengan pusat O(0,0)</a>
+            <a href="Rotasi2.html">3.2 Rotasi dengan pusat P(a,b)</a>
+            <a href="RotasiC.html">Rangkuman</a>
+            <a href="RotasiK.html">Kuis</a>
+          </div>
+  
+          <button class="dropbtn dropdown-btn" onclick="ftampil()">4. Dilatasi
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown-container">
+            <a href="Dilatasi1.html">4.1 Dilatasi dengan pusat O(0,0)</a>
+            <a href="Dilatasi2.html">4.2 Dilatasi dengan pusat P(a,b)</a>
+            <a href="DilatasiC.html">Rangkuman</a>
+            <a href="DilatasiK.html">Kuis</a>
+          </div>
+  
+        <button class="bttn" button onclick="location.href='penerapan.html'">5. Penerapan Transformasi Geometri dalam Pemecahan Masalah</button>
+        <button class="bttn" button onclick="location.href='../evaluasi/evaluasi.html'">Evaluasi</button>
+    
+        </div>
+        </nav>
+
+
+        
+    <div class="kanan">
+      <div class="judtrans1">
+        <h2>1.2 Translasi Bidang</h2></div>
+        <br>
+        <button class="petunjukt1">Klik Untuk Melihat Petunjuk</button><br>
+                    <div id="petunjukt1" class="hilang">
+                      <ol class="ptrans1">
+                        <li>Pertanyaan ini terdiri dari 5 soal!</li>
+                        <li>Setelah kamu menjawab dengan benar, tekan tombol cek jawaban</li>
+                        <li>Jika jawaban kamu benar, maka akan muncul ikon <img src="cek.png" width="15px"> </li>
+                        <li>Jika jawaban kamu salah, maka akan muncul ikon <img src="salah.png" width="15px"> </li>
+                      </ol>
+                        
+                    </div>
+     <br>
+    
+        <center><img src="pertanyaan.png" width="250" height="70" class="gmb"></center>
+<div id="klik1"></div>
+<div id="klik2"></div>
+<div id="klik3"></div>
+<div class="pertanyaantrans2">
+  <div class="slideshow-container">
+
+      <div class="mySlides" >
+        <p>1. Berapakah translasi \[T=(a,b)\] yang sesuai untuk transformasi berikut?
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Titik \[P(2,5)\] ditranslasikan oleh \[T_{1}\] menghasilkan \[{P}'(4,6)\].
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[a\]=<input id="c1" type="text" value placeholder="..." style="width:25px">
+          \[b\]=<input id="c1a" type="text" value placeholder="..." style="width:25px">
+        </p>
+          <center><button id="jp1">cek jawaban</button><p id="jbp1"></p></center>
+          <span id="ket1">
+          </span>
+      </div>
+      <div class="mySlides" >
+        <p>1. Berapakah translasi \[T=(a,b)\] yang sesuai untuk transformasi berikut?
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Titik \[Q(-3,4)\] ditranslasikan oleh \[T_{2}\] menghasilkan \[{Q}'(2,-3)\].
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[a\]=<input id="c2" type="text" value placeholder="..." style="width:25px">
+          \[b\]=<input id="c2a" type="text" value placeholder="..." style="width:25px">
+        </p>
+          <center><button id="jp2">cek jawaban</button><p id="jbp2"></p></center>
+          <span id="ket2">
+          </span>
+      </div>
+      <div class="mySlides" >
+        <p>1. Berapakah translasi \[T=(a,b)\] yang sesuai untuk transformasi berikut?
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Titik \[R(4,-5)\] ditranslasikan oleh \[T_{3}\] menghasilkan \[{R}'(-1,2)\].
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[a\]=<input id="c3" type="text" value placeholder="..." style="width:25px">
+          \[b\]=<input id="c3a" type="text" value placeholder="..." style="width:25px">
+        </p>
+          <center><button id="jp3">cek jawaban</button><p id="jbp3"></p></center>
+          <span id="ket3">
+          </span>
+      </div>      
+      <div class="mySlides" >
+        <p>1. Berapakah translasi \[T=(a,b)\] yang sesuai untuk transformasi berikut?
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Titik \[S(-5,-3)\] ditranslasikan oleh \[T_{4}\] menghasilkan \[{S}'(-2,2)\].
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[a\]=<input id="c4" type="text" value placeholder="..." style="width:25px">
+          \[b\]=<input id="c4a" type="text" value placeholder="..." style="width:25px">
+        </p>
+          <center><button id="jp4">cek jawaban</button><p id="jbp4"></p></center>
+          <span id="ket4">
+          </span>
+      </div>
+      <div class="mySlides" >
+        <p>2. Jika titik \[(p,q)\] ditranslasikan oleh \[(3,-4)\] menghasilkan titik \[(-4,6)\]. Berapakah nilai \[p+q\]?
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nilai \[p+q\]=<input id="c5" type="text" value placeholder="..." style="width:25px">
+        </p>
+          <center><button id="jp5">cek jawaban</button><p id="jbp5"></p></center>
+          <span id="ket5">
+          </span>
+      </div>
+      <a class="mundur" onclick="plusSlides(-1)">❮</a>
+      <a class="lanjut" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)">1a</span> 
+        <span class="dot" onclick="currentSlide(2)">1b</span> 
+        <span class="dot" onclick="currentSlide(3)">1c</span>
+        <span class="dot" onclick="currentSlide(4)">1d</span>
+        <span class="dot" onclick="currentSlide(5)">2</span>
+      </div>
+</div>
+    </div>
+<footer>
+  <div class="footer">
+    <a href="Translasi2b.html" class="back"><img src="back.png" width="30px" height="30px"></a>
+    <a href="Translasi2.html"class="satu"><img src="satu.png" width="30px" height="30px"></a>
+    <a href="Translasi2b.html"class="dua"><img src="dua.png" width="30px" height="30px"></a>
+    <a class="active" href="Translasi2c.html"class="tiga"><img src="tiga.png" width="30px" height="30px"></a>
+    <a href="TranslasiC.html" class="next"><img src="next.png" width="30px" height="30px"></a>
+    
+  </div>
+    </footer>
+
+<!-- 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>  
+  var params = {"appName": "translasi1.ggb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() { 
+      applet.inject('ggb-element');
+  });
+</script> -->
+<script src="materitrans13.js"></script>
+<script src="pertanyaantrans2.js"></script>
+</body>
+</html>

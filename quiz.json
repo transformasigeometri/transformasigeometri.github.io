@@ -1,0 +1,112 @@
+[
+	{
+	"soal0":{
+		"soal":"Untuk menjamu 12 orang tamu diperlukan 1,5 kg beras. Untuk menjamu 30 orang tamu diperlukan . . . kg beras.",
+		"a":"a. 3 ",
+		"b":"b. 3,25",
+		"c":"c. 3,5",
+		"d":"d. 3,75",
+		"benar":"d"
+		}
+	},
+	{
+	"soal1":{
+		"soal":"Harga 1 gross sendok Rp 72.000,00. Harga 5 lusin sendok adalah. . . .",
+		"a":"a. Rp 28.000,00",
+		"b":"b. Rp 30.000,00",
+		"c":"c. Rp 32.000,00",
+		"d":"d. Rp 35.000,00",
+		"benar":"b"
+		}
+	},
+	{
+	"soal2":{
+		"soal":"Harga tiket kereta kelinci untuk setiap 15 km adalah Rp 2.500. Harga tiket kereta kelinci untuk jarak 60 km adalah . . . .",
+		"a":"a. Rp 10.000,00",
+		"b":"b. Rp 12.000,00",
+		"c":"c. Rp 12.500,00",
+		"d":"d. Rp 15.000,00",
+		"benar":"a"
+		}
+	},
+	{
+	"soal3":{
+		"soal":"Harga 1 kodi pulpen adalah Rp 48.000,- dan harga 1 lusin pensil adalah Rp 36.000,- . Perbandingan harga sebuah pulpen dan sebuah pensil adalah. . . .",
+		"a":"a. 4 : 3",
+		"b":"b. 4 : 5",
+		"c":"c. 5 : 4",
+		"d":"d. 3 : 4",
+		"benar":"b"
+		}
+	},
+	{
+	"soal4":{
+		"soal":"Seorang peternak memiliki 150 ekor ayam, ia memiliki persediaan pakan yg cukup untuk 6 hari. Jika peternak tersebut membeli 30 ekor ayam lagi, maka persediaan pakannya cukup untuk . . . hari",
+		"a":"a. 3",
+		"b":"b. 4",
+		"c":"c. 5",
+		"d":"d. 6",
+		"benar":"d"
+		}
+	},
+	{
+	"soal5":{
+		"soal":"Sebuah roda memiliki jari-jari 16 buah dengan jarak antara jari-jarinya 7,5 cm. Jika jarak antara jari-jarinya diubah menjadi 8 cm, banyak jari-jari yang bisa dipasang pada roda tersebut adalah . . . .",
+		"a":"a. 15",
+		"b":"b. 14",
+		"c":"c. 13",
+		"d":"d. 12",
+		"benar":"a"
+		}
+	},
+	{
+	"soal6":{
+		"soal":"Ibu berbelanja membawa sejumlah uang. Ia ingin membeli beras jenis A yang harganya Rp 12.000,- per liter sebanyak 10 liter. Jika ibu membeli beras jenis B yang harganya Rp 12.500,- per liter dengan jumlah uang yang sama, banyak beras yang bisa dibeli adalah . . . . ",
+		"a":"a. 8 liter",
+		"b":"b. 8,4 liter",
+		"c":"c. 9 liter",
+		"d":"d. 9,6 liter",
+		"benar":"d"
+		}
+	},
+	{
+		"soal7":{
+			"soal":"Suatu pekerjaan dapat diselesaikan oleh 24 orang dalam waktu 30 hari. Jika dikerjakan oleh 20 orang maka akan selesai dalam . . . hari.",	
+			"a":"a. 32",
+			"b":"b. 36",
+			"c":"c. 40",
+			"d":"d. 42",
+			"benar":"b"
+		}
+	},
+	{
+		"soal8":{
+			"soal":"Seorang dermawan memiliki dana yang ingin ia bagikan dalam bentuk beasiswa. Tabel di bawah menunjukkan pilihan yang mungkin dengan jumlah dana tersebut. Jika diberikan kepada 15 orang siswa maka masing-masing mendapat Rp 100.000,-. Berdasarkan tabel, nilai y yang peling tepat adalah. . . .",
+			"a":"a. Rp 105.000,00",
+			"b":"b. Rp 120.000,00",
+			"c":"c. Rp 125.000,00",
+			"d":"d. Rp 140.000,00",
+			"benar":"c"
+		}
+	},
+	{
+		"soal9":{
+			"soal":"Bentuk sederhana dari perbandingan 27 cm : 1,8 m adalah . . . .",
+			"a":"a. 27 : 1,8",
+			"b":"b. 3 : 18",
+			"c":"c. 3 : 20",
+			"d":"d. 30 : 20",
+			"benar":"c"
+		}
+	},
+	{
+		"soal10":{
+			"soal":" Perbandingan berat badan Andi dan Boni adalah 7 : 8. Jika berat badan Boni 48 kg, berat badan Andi adalah . . . .",
+			"a":"a. 40 kg",
+			"b":"b. 42 kg",
+			"c":"c. 44 kg",
+			"d":"d. 48 kg",
+			"benar":"b"
+		}
+	}
+]
