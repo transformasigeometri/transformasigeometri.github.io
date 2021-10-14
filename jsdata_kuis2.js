@@ -67,7 +67,7 @@ selanjutnya.addEventListener('click', function () {
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 24 Banjarmasin";
+            sekolahfix = "SMP Negeri 2 Banjarmasin";
         }
         cek += 1;
     }
@@ -371,7 +371,7 @@ MathJax.typeset();
 }
 
 
-dat.open('GET', 'kuis1.json', true);
+dat.open('GET', 'kuis2.json', true);
 dat.send();
 
 //FUNGSI WAKTU DAN HARI
@@ -417,7 +417,7 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
         hari: hari
     }
 
-    let db = firebase.database().ref("kuis1/" + counter);
+    let db = firebase.database().ref("kuis2/" + counter);
     db.set(task);
 
 }

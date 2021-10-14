@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Berikut ini yang bukan titik asal beserta bayangan hasil dari pencerminan terhadap garis \\[x=-4\\] adalah....",
+        "a": "a. \\[P(-6,-1) \\rightarrow {P}'(2,-1)\\]",
+        "b": "b. \\[Q(4,8) \\rightarrow {Q}'(-12,8)\\]",
+        "c": "c. \\[R(-3,2) \\rightarrow {R}'(-5,2)\\]",
+        "d": "d. \\[S(1,-7) \\rightarrow {S}'(-9,-7)\\]",
+        "benar": "a",
+        "nih": "a. \\[P(-6,-1) \\rightarrow {P}'(2,-1)\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Titik \\[A(7,-3)\\] direfleksikan dengan garis \\[y=-x\\] dilanjutkan dengan refleksi terhadap garis \\[x=3\\]. Hasil bayangan akhir dari titik \\[A\\] adalah....",
+        "a": "a. \\[{A}''(-7,3)\\]",
+        "b": "b. \\[{A}''(3,-7)\\]",
+        "c": "c. \\[{A}''(-3,-7)\\]",
+        "d": "d. \\[{A}''(6,-7)\\]",
+        "benar": "b",
+        "nih": "b. \\[{A}''(3,-7)\\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Bayangan titik \\[R(2,-3)\\] jika dicerminkan dengan sumbu \\[x\\] adalah....",
+        "a": "a. \\[{R}'(2,3)\\]",
+        "b": "b. \\[{R}'(3,-2)\\]",
+        "c": "c. \\[{R}'(-2,3)\\]",
+        "d": "d. \\[{R}'(-3,-2)\\]",
+        "benar": "a",
+        "nih": "a. \\[{R}'(2,3)\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Bayangan titik \\[S(-5,4)\\] jika dicerminkan terhadap sumbu \\[y\\] adalah....",
+        "a": "a. \\[{S}'(4,-5)\\]",
+        "b": "b. \\[{S}'(5,-4)\\]",
+        "c": "c. \\[{S}'(-4,-5)\\]",
+        "d": "d. \\[{S}'(5,4)\\]",
+        "benar": "d",
+        "nih": "d. \\[{S}'(5,4)\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Jika titik \\[Q(7,5)\\] dicerminkan terhadap garis \\[x=3\\] maka koordinat titik bayangannya adalah....",
+        "a": "a. \\[{Q}'(5,1)\\]",
+        "b": "b. \\[{Q}'(-1,5)\\]",
+        "c": "c. \\[{Q}'(5,-1)\\]",
+        "d": "d. \\[{Q}'(-1,-5)\\]",
+        "benar": "b",
+        "nih": "b. \\[{Q}'(-1,5)\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Perhatikan gambar di bawah ini!<br> <img src='img/srn6.JPG' width='250' height='170'><br> Jika persegi \\[ABCD\\] direfleksikan terhadap sumbu \\[y\\], maka hasil bayangan \\[{A}'{B}'{C}'{D}'\\] adalah....",
+        "a": "a. \\[{A}'(2,2),{B}'(2,1),{C}'(1,1),{D}'(1,2)\\]",
+        "b": "b. \\[{A}'(2,-2),{B}'(2,-1),{C}'(1,-1),{D}'(1,-2)\\]",
+        "c": "c. \\[{A}'(-2,2),{B}'(-2,1),{C}'(-1,1),{D}'(-1,2)\\]",
+        "d": "d. \\[{A}'(-2,-2),{B}'(-2,-1),{C}'(-1,-1),{D}'(-1,-2)\\]",
+        "benar": "a",
+        "nih": "a. \\[{A}'(2,2),{B}'(2,1),{C}'(1,1),{D}'(1,2)\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Persamaan bayangan garis \\[y=x^{2}-5\\] jika dicerminkan terhadap sumbu \\[x\\] adalah....",
+        "a": "a. \\[y = -5-x^{2} \\]",
+        "b": "b. \\[y = x^{2}-5 \\]",
+        "c": "c. \\[y = 5-x^{2}\\]",
+        "d": "d. \\[y = -x^{2}-5\\]",
+        "benar": "c",
+        "nih": "c. \\[y = 5-x^{2}\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Titik \\[D(-2,6)\\] jika dicerminkan terhadap garis \\[y=-x\\] maka titik bayangannya adalah....",
+        "a": "a. \\[{D}'(2,6)\\]",
+        "b": "b. \\[{D}'(6,2)\\]",
+        "c": "c. \\[{D}'(2,-6)\\]",
+        "d": "d. \\[{D}'(-6,2)\\]",
+        "benar": "d",
+        "nih": "d. \\[{D}'(-6,2)\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Bayangan dari titik \\[E(-6,7)\\] jika dicerminkan terhadap sumbu \\[y\\] adalah....",
+        "a": "a. \\[{E}'(6,-7)\\]",
+        "b": "b. \\[{E}'(7,-6)\\]",
+        "c": "c. \\[{E}'(6,7)\\]",
+        "d": "d. \\[{E}'(-7,6)\\]",
+        "benar": "c",
+        "nih": "c. \\[{E}'(6,7)\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Bayangan dari titik \\[F(3,8)\\] jika dicerminkan terhadap garis \\[y=3\\] adalah....",
+        "a": "a. \\[{F}'(3,-2)\\]",
+        "b": "b. \\[{F}'(8,3)\\]",
+        "c": "c. \\[{F}'(-3,2)\\]",
+        "d": "d. \\[{F}'(-8,3)\\]",
+        "benar": "a",
+        "nih": "a. \\[{F}'(3,-2)\\]"
+    }
+}]
