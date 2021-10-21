@@ -658,7 +658,7 @@ a {
 }
 .judpen {
   width: 825px;
-  height: 43px;
+  height: max-content;
   border-radius: 3px;
   background-color: #f2da66;
   text-align: center;
