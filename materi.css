@@ -1,6 +1,12 @@
 *
 {
     margin:0;
+    box-sizing: border-box;
+}
+
+h2{
+  margin: 0 !important;
+
 }
 
 
@@ -33,7 +39,7 @@
         nav {
           font-family: Footlight MT Light;
           float: left;
-          width: 19.29%;
+          width: 23%;
           height: 500px;  
           background: #006523;
           padding: 20px;
@@ -144,12 +150,17 @@ line-height: 26.4px;
 text-align: justify;
 float: right;
 padding: 17px;
-width: 77.3%;
+width: 77%;
 background-color: #d6ff8a;
 height: 500px;
 border: 3px dotted #ffab40;
 overflow: auto;
 }
+
+.bungkus{
+  width: 100%;
+}
+
 .gmb {
   width: 230px;
   height: auto;
@@ -171,12 +182,12 @@ nav ul a {
 
 .judtrans1 {
 width: 503px;
-height: 43px;
+height: max-content;
 border-radius: 3px;
 background-color: #f2da66;
 text-align: center;
 border: solid #006523 5px;
-padding-top: 15px;
+padding: 15px 0;
 margin-left: 274px;
 }
 
@@ -188,8 +199,8 @@ p.judt1 {
   color: black;
   font-size: 20px;
   font-family: Footlight MT Light;
-  height: 40px;
-  padding-top: 10;
+  height: max-content;
+  padding: 10px 0;
 }
 .tujuan:hover {background-color: #f2da66}
 
