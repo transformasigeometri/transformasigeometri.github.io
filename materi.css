@@ -532,7 +532,7 @@ a {
 }
 .judref1 {
   width: 681px;
-  height: 43px;
+  height: max-content;
   border-radius: 3px;
   background-color: #f2da66;
   text-align: center;
