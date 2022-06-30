@@ -1,0 +1,106 @@
+*
+{
+    margin:0;
+}
+
+
+.footer {
+        background-color:#827717 ;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+        margin-top: 500px;
+        }
+    
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:#827717;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: green;
+        }
+.kanan {
+font-family:Footlight MT Light ;
+font-size: 18px;
+font-weight: 700;
+line-height: 26.4px;
+text-align: justify;
+float: right;
+padding: 20px;
+width: 47%;
+background-color: #dbffb3;
+height: 455px;
+border: 3px dashed #ffab40;
+overflow: auto;
+
+}
+
+.kiri {
+    font-family:Footlight MT Light ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: justify;
+    float: right;
+    padding: 17px;
+    width: 46.6%;
+    background-color:  #dbffb3;
+    height: 460px;
+    border: 3px dashed #ffab40;
+    overflow: auto;    
+
+}
+.des {
+  border: 3px dotted #006523;
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 155px;
+  padding: 10px;
+  background-color: #dbffb3;
+}
+
+.aut {
+  border: 3px dotted #006523;
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 204px;
+  padding: 10px;
+  background-color: #dbffb3;
+}
+@media only screen and (max-width: 1020px) {
+  .kiri{
+    width: auto;
+    height: auto;
+  }
+
+  .kanan{
+    width: auto;
+    height: auto;
+  }
+
+  .footer{
+      width: auto;
+      height: auto;
+  }
+
+  .header{
+    width: auto;
+    height: auto;
+  }
+}

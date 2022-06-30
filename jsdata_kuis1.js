@@ -22,6 +22,7 @@ let kelasfix = '';
 
 selanjutnya.addEventListener('click', function () {
     let cek = 0;
+	
     if (namanya.value == "") {
         if (namanya.className.indexOf('tt_salah') == -1) {
             namanya.className += ' tt_salah';
@@ -67,7 +68,7 @@ selanjutnya.addEventListener('click', function () {
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Negeri 2 Banjarmasin";
+            sekolahfix = "SMP Negeri 24 Banjarmasin";
         }
         cek += 1;
     }
@@ -429,6 +430,7 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari) {
 //     document.getElementById("halskor").className += " hilang";
 //     document.getElementById("data").className = document.getElementById("data").className.replace("hilang","");
 //     datadiri.className = datadiri.className.replace("hilang","");
+//     document.getElementById('nis').value="";
 //     document.getElementById('nama').value="";
 //     document.getElementById('kelas').value="0";
 //     document.getElementById('sekolah').value="0";
